@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./variables.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+* {
+    font-family: 'Open Sans', Arial;
+}
+
+.container {
+    .logo {
+        display: flex;
+        align-items: center;
+
+        figure {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        h1 {
+            display: inline-block;
+            font-size: 28px;
+            font-weight: 500;
+            color: var(--color-principal);
+            cursor: pointer;
+        }
+    }
+}
+
+.izqNav {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    
+    li {
+        display: inline-block;
+        padding: 0 0 0 30px;
+        color: var(--color-principal);
+        cursor: pointer;
+    }
+}
+
+.drchNav {
+    display: flex;
+    width: 35%;
+    align-items: center;
+
+    .buscar {
+        width: 65%;
+        display: flex;
+        background-color: white;
+        border-radius: 16px;
+        padding: 15px;
+        cursor: text;
+
+        i {
+            color: #666666;
+        }
+
+        p {
+            padding: 0 0 0 10px;
+            color: #666666;
+        }
+    }
+
+    .btnic {
+        display: flex;
+        padding: 0 0 0 5px;
+
+        .ic {
+            background-color: white;
+            padding: 15px;
+            border-radius: 16px;
+            margin: 0 5px 0 0;
+            cursor: pointer;
+
+            i {
+                color: #666666;
+            }
+        }
+    }
+}
+
+.descripcion {
+    h3 {
+        padding: 10px;
+        font-weight: 600;
+    }
+    p {
+        padding: 0 10px 20px 10px;
+        color: #666666;
+    }
+    a {
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 85%;
+        padding: 10px;
+        background-color: rgb(55, 103, 233);
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    
+    .titulo {
+        color: var(--color-principal);
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+
+.productos {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos2 {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofertas {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    
+    .titulo {
+        color: var(--color-principal);
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+
+.precio {
+    display: flex;
+    .pnormal {
+        color: red;
+        font-weight: 600;
+    }
+    .exprecio {
+        text-decoration: line-through;
+    }
+}
+
+.productos2 {
+    figure {
+        position: relative;
+        .alerta {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            padding: 5px;
+            border-radius: 16px;
+            display: flex;
+            background-color: rgb(255, 81, 81);
+            color: white;
+        }
+    }
+}
