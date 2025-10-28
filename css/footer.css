@@ -1,0 +1,33 @@
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+.contacto {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+
+    ul {
+        li {
+            margin: 20px;
+            color: #666666;
+            cursor: pointer;
+
+            span {
+                font-weight: 700;
+            }
+
+            i {
+                scale: 2.0;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+.copy {
+    color: #666666;
+    margin: 30px;
+    text-align: center;
+}
