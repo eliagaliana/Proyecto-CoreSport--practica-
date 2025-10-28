@@ -60,4 +60,10 @@ Este proyecto forma parte del proceso de consolidación de habilidades en **HTML
 
 ---
 
+## 📧 Contacto
 
+Si tienes alguna pregunta o deseas más información sobre el proyecto, no dudes en ponerte en contacto:
+
+- Autor: Elia Galiana
+- Correo: eliagaliana@gmail.com
+- LinkedIn: www.linkedin.com/in/elia-galiana-sanabria-74992431a
