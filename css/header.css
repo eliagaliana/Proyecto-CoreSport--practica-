@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    font-family: 'Open Sans';
+    background-color: var(--color-fondo);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        figure {
+            img {
+                width: 70px;
+                height: auto;
+            }
+        }
+    }
+}
